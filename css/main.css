@@ -1,0 +1,119 @@
+/*--------------- HEADER --------------*/
+
+header {
+	background-color: #FFCC01;
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+	overflow: hidden;
+}
+
+.button-sumate, nav {
+	display: inline-block;
+}
+
+.head .button-sumate {
+	background-color: #faa719;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: white; 
+}
+
+.head .button-sumate:hover {
+	background-color: purple;
+}
+
+nav ul li {
+	margin-top: 20px;
+	display: inline-block;
+}
+
+nav ul li a {
+	padding: 20px 10px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+	background-color: #F2A500;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.head-text {
+	margin: 200px 0 200px 0;
+	overflow: hidden;
+}
+
+/*------------- SECTION ------------*/
+
+h2 {
+	text-align: left;
+	color: #343434;
+}
+
+section .examples p {
+	text-align: left;
+	color: #343434;
+	margin: 10px 0 20px 10px;
+}
+
+section {
+	background-color: #EAEAE9;
+	padding: 0 100px;
+}
+
+section .examples {
+	background-color: white;
+	margin: 70px 0 30px 0px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+section .row:last-child .examples:last-child {
+	margin-top: 0px;
+}
+
+section .examples a {
+	background-color: #FFCC01; 
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+}
+
+section .examples a:hover {
+	background-color: purple; 
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+}
+
+section .col-6 img{
+	margin: 20px 0;
+}
+
+/*------------ FOOTER ------------*/
+
+footer {
+	background-color: #262624;
+}
+
+footer p {
+	text-align: left;
+	font-size: 15px;
+	padding: 20px 0 20px 120px;
+	color: white;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: #FFCC01;
+}
